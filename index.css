@@ -1,0 +1,217 @@
+/* Styles for the header */
+.header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(70%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+}
+
+
+.header-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: "Roboto Mono", monospace; /* Set gaming-themed font */
+}
+
+.header-content p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/* Parallax effect */
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax .header{
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-out;
+}
+
+
+.btn-primary {
+  background-color: #ffc107; 
+  border-color: #ffc107; 
+}
+
+.btn-primary:hover {
+  background-color: #ffca28; 
+  border-color: #ffca28;
+}
+
+/* Game feature list */
+.feature-list {
+  list-style: none; 
+  padding: 0; 
+  margin-top: 40px; 
+  display: flex;
+  justify-content: center; 
+}
+
+.feature-list-item {
+  margin: 0 20px; 
+  text-align: center; 
+}
+
+.feature-icon {
+  font-size: 36px; 
+  color: #ffc107; 
+  margin-bottom: 10px; 
+}
+
+.feature-title {
+  font-size: 24px; 
+  color: #ffc107; 
+  margin-bottom: 10px; 
+}
+
+.feature-description {
+  font-size: 18px; 
+  color: #fff; 
+}
+
+/* Button styling */
+.btn-custom {
+  background-color: #ffc107; 
+  border-color: #ffc107;
+  color: #000; 
+  font-size: 20px; 
+  padding: 10px 20px; 
+  margin-top: 20px; 
+}
+
+.btn-custom:hover {
+  background-color: #ffca28; 
+  border-color: #ffca28;
+}
+
+
+/* Section styling */
+.section {
+  padding: 100px 0; 
+  text-align: center; 
+}
+
+.section h2 {
+  font-size: 36px; 
+  margin-bottom: 30px; 
+  color: #ffc107; 
+  text-transform: uppercase; 
+}
+
+/* Content styling */
+.content {
+  padding: 0 15px; 
+}
+
+.content h3 {
+  font-size: 24px;
+  color: #ffc107; 
+  margin-bottom: 15px; 
+}
+
+.content p {
+  font-size: 16px; 
+  line-height: 1.6; 
+}
+
+/* About Us section */
+.about-section {
+  width: 100%;
+  background-color: #222;  
+}
+
+.about-section p {
+  font-size: 18px; 
+}
+
+/* Purchase Platform section */
+.purchase-section {
+  background-color: #121212; ; 
+  padding: 100px 0; 
+  text-align: center; 
+}
+
+.purchase-section h2 {
+  font-size: 36px; 
+  margin-bottom: 30px; 
+  color: #ffc107; 
+  text-transform: uppercase; 
+}
+
+.purchase-form {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  font-size: 20px; 
+  color: #ffc107; 
+  margin-bottom: 10px; 
+  display: block; 
+  text-align: left;
+}
+
+.form-control {
+  font-size: 18px; 
+  background-color: #333;
+  color: #fff; 
+}
+
+.btn-purchase {
+  background-color: #ffc107; 
+  border-color: #ffc107;
+  font-size: 20px; 
+  padding: 10px 20px; 
+}
+
+.btn-purchase:hover {
+  background-color: #ffca28; 
+  border-color: #ffca28;
+}
+
+/* Game-related content */
+.game-content {
+  padding: 0 15px; 
+}
+
+.game-content h3 {
+  font-size: 24px;
+  color: #ffc107; 
+  margin-bottom: 15px; 
+}
+
+.game-content p {
+  font-size: 16px; 
+  line-height: 1.6; 
+}

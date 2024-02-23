@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaming Website</title>
+    <link rel="icon" href="./gaming.svg" type="image/x-icon" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header with background video -->
+    <div class="parallax">
+      <header class="header">
+        <div class="overlay"></div>
+        <video autoplay muted loop>
+          <source
+            src="./Riders Republic： Cinematic Premiere ｜ Ubisoft Forward 2020 ｜ Ubisoft [NA].mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <div class="header-content">
+          <h1>Welcome to our Gaming Website</h1>
+          <p>Explore the latest games, news, and more!</p>
+          <a href="#" class="btn btn-primary">Play Now</a>
+          <a href="#" class="btn btn-outline-primary ml-2">Learn More</a>
+        </div>
+      </header>
+    </div>
+
+    <!-- About Us section -->
+    <section id="about" class="about-section section">
+      <div class="container paragraph-container">
+        <h2>About Us</h2>
+        <p>
+          Welcome to the world of virtual adrenaline! Dive into the
+          heart-pounding realm of Infinite Quest, the electrifying new gaming
+          adventure that catapults you into a universe brimming with excitement
+          and challenge. Traverse vast landscapes, from mythical realms to
+          futuristic metropolises, and embark on an epic journey unlike any
+          other. With seamless controls, an extensive array of skills to master,
+          and a captivating storyline, every victory will leave you on the edge
+          of your seat. Keep an eye out as we tirelessly craft this unparalleled
+          gaming experience, set to redefine the very essence of immersive
+          gameplay.
+        </p>
+        <p>
+          Join our fellowship of gamers today and become a part of the thrill!
+          Connect with fellow players, exchange tales of triumph, and stay
+          abreast of the latest developments in the gaming cosmos. Whether
+          you're a casual adventurer or a seasoned warrior, our community
+          awaits, ready to embrace your unique journey. Don't miss your chance
+          to plunge into a realm where every click brings you closer to
+          extraordinary adventures!
+        </p>
+        <p>
+          Prepare for a whirlwind of excitement with upcoming tournaments,
+          exclusive events, and local meetups galore. Test your skills against
+          fellow champions, forge new alliances, and revel in the camaraderie of
+          like-minded warriors. With Infinite Quest, the excitement never wanes,
+          and the next great challenge is always on the horizon!
+        </p>
+      </div>
+    </section>
+
+    <!-- Purchase Platform section -->
+    <section id="purchase" class="purchase-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Purchase</h2>
+            <div class="purchase-form">
+              <form>
+                <div class="form-group">
+                  <label for="location">Location</label>
+                  <select class="form-control" id="location">
+                    <option value="usa">INDIA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">USA</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="purchase-options">Purchase Options</label>
+                  <select class="form-control" id="purchase-options">
+                    <option value="standard">Standard Edition</option>
+                    <option value="deluxe">Deluxe Edition</option>
+                    <option value="collectors">Collector's Edition</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="devices">Devices</label>
+                  <select class="form-control" id="devices">
+                    <option value="pc">PC</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="ps">PlayStation</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-purchase">Purchase</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="game-content paragraph-container">
+              <h3>Welcome to EpicQuest - Where Gaming Adventures Begin!</h3>
+              <p>
+                Dive into the epic world of EpicQuest and join our vibrant
+                community of adventurers! Experience the adrenaline rush of
+                dynamic quests and immersive landscapes like never before.
+                Explore vast dungeons, enchanted forests, and legendary realms,
+                all with the touch of your fingertips. With intuitive controls,
+                intricate questlines, and rewarding achievements, every step
+                forward is a triumph.
+              </p>
+              <p>
+                Prepare yourself for an unforgettable journey where the
+                boundaries of reality fade away. Stay tuned as we tirelessly
+                craft this extraordinary gaming experience, poised to redefine
+                the very essence of adventure gaming.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community section -->
+    <section id="community" class="section">
+      <div class="container">
+        <h2>Community</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="content paragraph-container">
+              <h3>Join Our Community</h3>
+              <p>
+                Connect with fellow gamers, share your experiences, and stay
+                updated on the latest news and events in the gaming world.
+                Whether you're a casual player or a hardcore enthusiast, our
+                community welcomes you!
+              </p>
+              <a href="#" class="btn btn-custom">Join Now</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="content paragraph-container">
+              <h3>Upcoming Events</h3>
+              <p>
+                Stay tuned for exciting gaming events, tournaments, and meetups
+                happening in your area. Don't miss out on the chance to compete,
+                socialize, and immerse yourself in the world of gaming!
+              </p>
+              <a href="#" class="btn btn-custom">Explore Events</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Gaming Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#purchase">Purchase</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Social Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Connect with us on social media:</p>
+            <!-- Social media icons -->
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-nav">
+              <ul class="nav-list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Purchase</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <!-- Attribution Section -->
+      <section id="attribution">
+        <div class="container">
+          <p>Video content sourced from Ubisoft's YouTube channel:</p>
+          <p>
+            Title: Riders Republic: Cinematic Premiere | Ubisoft Forward 2020 |
+            Ubisoft [NA]
+          </p>
+          <p>
+            Description: Jump into the Riders Republic massive multiplayer
+            playground! Ski, snowboard, bike, or wingsuit across an open world
+            sports paradise. Race in mass start events, develop your rider’s
+            career, or kick back with friends and free roam the parks.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=B1TRRiLOw0Q
+          "
+            target="_blank"
+            >Watch the video</a
+          >
+        </div>
+      </section>
+    </footer>
+
+    <script src="index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
